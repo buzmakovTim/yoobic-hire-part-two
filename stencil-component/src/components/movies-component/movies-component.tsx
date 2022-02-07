@@ -23,16 +23,19 @@ export class MoviesComponent {
 
   render() {
     return (
-      // <p>Test</p>
+
       this.movies.map( m =>
 
-      <div>
-          <h1>{m.Title}</h1>
-          <p>{m.Year}</p>
-          <img src={m.Poster}></img>
+      <div class="container">
+          <div>
+            <img src={m.Poster} alt="Poster"></img>
+          </div>
+          <div>
+            <h3>{m.Title}</h3>
+            <p>{"Year: " + m.Year}</p>
+            <button>Read more</button>
+          </div>
       </div>
-
-
       )
     );
   }

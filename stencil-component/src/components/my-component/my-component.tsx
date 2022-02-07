@@ -12,7 +12,6 @@ export class MyComponent {
 
 
   // TEST DATA
-
   movies: MoviesType = [
     {Title: 'Friends', Year: '1994–2004', imdbID: 'tt0108778', Type: 'series', Poster: 'https://m.media-amazon.com/images/M/MV5BNDVkYjU0Mz…jllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg'},
     {Title: 'Friends with Benefits', Year: '2011', imdbID: 'tt1632708', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMTQ2MzQ0NTk4N15BMl5BanBnXkFtZTcwMDc2NDYzNQ@@._V1_SX300.jpg'},
@@ -24,7 +23,6 @@ export class MyComponent {
     {Title: 'Friends with Money', Year: '2006', imdbID: 'tt0436331', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMjE3Mjc3NjQ5NV5BMl5BanBnXkFtZTYwMjY5MjE3._V1_SX300.jpg'},
     {Title: "Foster's Home for Imaginary Friends", Year: '2004–2009', imdbID: 'tt0419326', Type: 'series', Poster: 'https://m.media-amazon.com/images/M/MV5BNjYyNGFjOT…zA3ODc5XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg'},
   ]
-
 
   render() {
     return <div>

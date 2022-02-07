@@ -1,3 +1,25 @@
 :host {
   display: block;
 }
+.container {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(243, 243, 243);
+  padding: 10px;
+  border-radius: 5px;
+}
+.container img {
+  width: 100px;
+}
+.container div {
+  margin: 10px;
+}
+button {
+  margin-top: 20px;
+}
+h3,
+p {
+  margin: 0;
+}
